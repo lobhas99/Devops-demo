@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: mywebsite
-        image: lobhas99/prac:{{ .Values.image.tag }}
+        image: lobhas99/mywebsite:{{ .Values.image.tag }}
         resources:
           limits:
             memory: "128Mi"
